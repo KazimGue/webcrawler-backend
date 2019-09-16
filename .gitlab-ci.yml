@@ -1,4 +1,4 @@
 image: maven:3-jdk-12
 
-                                                        build:
-                                                          script: "mvn install -B"
+build:
+  script: "mvn install -B"
