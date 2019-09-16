@@ -37,7 +37,6 @@ public class AnfragenController {
         List<Daten> liste = neuerAnfragenService.preisUnternehmenZuweisen(preisliste);
         liste = neuerAnfragenService.filtereUnternehmenOhnePreis(liste);
         return liste;
-
     }
 
 

@@ -5,10 +5,7 @@ import de.awa.training.webcrawler.model.Login;
 import de.awa.training.webcrawler.repository.UnternehemensRepository;
 import de.awa.training.webcrawler.services.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class LoginController {
@@ -26,6 +23,11 @@ public class LoginController {
         // Json Objekt vom Frontend (LoginName und Passwort) annehmen und in der Methode checken
         String returnStatement = loginService.checkLoginDaten(login);
         return returnStatement;
+    }
+
+    @GetMapping("/get")
+    public String getUser(){
+        return "Get User Information";
     }
 
 

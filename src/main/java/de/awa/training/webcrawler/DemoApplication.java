@@ -76,8 +76,8 @@ public class DemoApplication {
         }
         try {
             pfiffiggasWebcrawler.allePLZCrawlen();
-            meinFluessiggasWebcrawler.allePLZCrawlen();
-            fluessiggas123.allePLZCrawlen();
+            //meinFluessiggasWebcrawler.allePLZCrawlen();
+            //fluessiggas123.allePLZCrawlen();
 
 
         } catch (ParseException e) {
