@@ -67,7 +67,7 @@ public class AnfragenServiceTest {
         Integer id3 = neuerAnfragenService.holePLZid("55555");
         Assert.assertEquals(Integer.valueOf(1),id);
         Assert.assertEquals(Integer.valueOf(2),id2);
-        Assert.assertNull(null,id3);
+        Assert.assertNull(null,id);
     }
 
     @Test
