@@ -56,8 +56,8 @@ public abstract class Crawler{
         int std = 9;
         int min = 20;
 
-/*        start(9, 15, 0, "51570");
-        start(9, 16, 0, "52152");
+        start(9, 15, 0, "51570");
+/*        start(9, 16, 0, "52152");
         start(9, 17, 0, "53804");
         start(9, 18, 0, "54290");
         start(9, 19, 0, "55543");
